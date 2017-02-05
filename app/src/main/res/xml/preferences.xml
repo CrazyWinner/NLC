@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:title="@string/showreaded"
+        android:defaultValue="false"
+        android:summary="@string/showreadeddesc"
+        android:key="showReaded" />
+    <ListPreference
+        android:title="@string/timebetween"
+        android:summary="@string/timebetweendesc"
+        android:key="notificationDuration"
+        android:entries="@array/times"
+        android:entryValues="@array/timesInts"
+        android:defaultValue="2"
+        />
+
+
+</PreferenceScreen>

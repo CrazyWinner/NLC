@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.crazywinner.notificationlightcontroller.BeginActivity"
+    android:id="@+id/activity_begin"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+
+
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="36dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:layout_gravity="center"
+                    android:id="@+id/grantpermText"
+                    android:text="@string/begin.grant"
+                    android:textColor="@android:color/white"
+
+
+                    />
+                <TextView
+                    android:text="@string/begin.desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:id="@+id/textView3"
+
+                    android:textColor="@android:color/white"
+                    />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/perm"
+                    android:tint="@android:color/white"
+                    android:id="@+id/imageView3"
+
+
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/done"
+                    android:visibility="invisible"
+
+                    android:id="@+id/imageViewOk"
+
+                    /></FrameLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+
+        android:layout_height="1dp"
+        android:background="@android:color/white"
+
+        android:id="@+id/view" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/linear"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            android:onClick="clickedExit"
+            android:layout_weight="1"
+            android:text="@string/begin.exit"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <Button
+
+            android:layout_width="0dp"
+            android:id="@+id/button_next"
+            android:textColor="@android:color/white"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="clickedSettings"
+            android:text="@string/begin.settings"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+
+</LinearLayout>

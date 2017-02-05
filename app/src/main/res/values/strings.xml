@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Notification Light Controller</string>
+    <string name="begin.settings">Settings></string>
+    <string name="begin.exit">Exit</string>
+    <string name="begin.grant">Grant Permission</string>
+    <string name="begin.desc">I need permission to read your notifications</string>
+    <string name="splash.welcome">Welcome</string>
+    <string name="begin.next">Next></string>
+    <string name="begin.granted">Permission Granted</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="addMessage">Do you want me to add default colors automatically ?</string>
+    <string name="loading">Loading</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+
+    <string name="appname">App:</string>
+    <string name="duration">Duration:</string>
+    <string name="notifications">Notifications</string>
+    <string name="settings">Settings</string>
+    <string name="setcolor">Color</string>
+    <string name="changecolor">Change Color</string>
+    <string name="setduration">Set duration</string>
+    <string name="changeapp">Change App</string>
+    <string name="createfirst">Create your first custom light</string>
+    <string name="createfirst.desc">Just touch the button and create it</string>
+    <string name="selectapp">Select an app</string>
+    <string name="selectapp.desc">You can tap to icon and select an app</string>
+    <string name="durationhint">Set duration</string>
+    <string name="durationhint.desc">You can tap to duration and set it</string>
+    <string name="colorhint">Select a color</string>
+    <string name="colorhint.desc">You can tap to this icon and change notification light color</string>
+    <string name="savehint">Save your light</string>
+    <string name="savehint.decs">Touch the button and save your custom notification light</string>
+    <string name="appnotselected">You didn\'t select an app</string>
+    <string name="showreaded">Show seen notifications</string>
+    <string name="showreadeddesc">Blink led for seen notifications too.</string>
+
+    <string name="timebetweendesc">Blink led for .... seconds</string>
+    <string name="timebetween">Notification display duration</string>
+    <string name="ad_fullscreen" translatable="false">ca-app-pub-7735317833015304/3150191273</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="times">
+        <item>10 saniye</item>
+        <item>15 saniye</item>
+        <item>20 saniye(Varsayılan)</item>
+        <item>30 saniye</item>
+        <item>40 saniye</item>
+        <item>1 dakika</item>
+    </string-array>
+    <string-array name="timesInts">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>60</item>
+    </string-array>
+
+</resources>

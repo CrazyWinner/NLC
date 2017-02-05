@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notification Light Controller</string>
+    <string name="begin.settings">Ayarlar></string>
+    <string name="begin.exit">Çık</string>
+    <string name="begin.grant">Gerekli İzin</string>
+    <string name="begin.desc">Bildirimleri okumak için izine ihtiyacım var</string>
+    <string name="splash.welcome">Hoşgeldiniz</string>
+    <string name="begin.next">Devam></string>
+    <string name="begin.granted">İzin verildi</string>
+    <string name="ok">Tamam</string>
+    <string name="cancel">İptal</string>
+    <string name="addMessage">Bulabildiğim uygulamaların renklerini ekleyeyim mi ?</string>
+    <string name="loading">Yükleniyor</string>
+    <string name="delete">Sil</string>
+    <string name="edit">Düzenle</string>
+    <string name="appname">Uygulama:</string>
+    <string name="duration">Süre:</string>
+    <string name="notifications">Bildirimler</string>
+    <string name="settings">Ayarlar</string>
+    <string name="setcolor">Renk</string>
+    <string name="setduration">Uzunluğu ayarla</string>
+    <string name="changeapp">Uygulama Değiştir</string>
+    <string name="changecolor">Renk Değiştir</string>
+    <string name="createfirst">İlk bildirim ışığını oluştur</string>
+    <string name="createfirst.desc">Butona dokunarak başlayabilirsiniz</string>
+    <string name="selectapp">Bir uygulama seçin</string>
+    <string name="selectapp.desc">İkona dokunarak uygulama seçebilirsiniz</string>
+    <string name="durationhint">Bildirim süresini ayarla</string>
+    <string name="durationhint.desc">Sürenin üstüne dokunarak ayarlayabilirsiniz</string>
+    <string name="colorhint">Bir renk seç</string>
+    <string name="colorhint.desc">Bu ikona dokunarak bildirim ışığı rengi seçebilirsiniz.</string>
+    <string name="savehint">Bildirimi kaydedin</string>
+    <string name="savehint.decs">Butona dokunun ve bildirim ışığınızı kaydedin.</string>
+    <string name="appnotselected">Uygulama seçmediniz</string>
+    <string name="showreaded">Okunmuş bildirimleri göster</string>
+    <string name="showreadeddesc">Okunmuş bildirimler için de ışığı yakıp söndür</string>
+    <string name="timebetweendesc">Ledi saniye kadar yakıp söndür</string>
+    <string name="timebetween">Bildirim gösterme süresi</string>
+</resources>

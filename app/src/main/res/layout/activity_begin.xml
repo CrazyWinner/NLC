@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_begin"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+
+
+    tools:context="com.crazywinner.notificationlightcontroller.BeginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+
+        android:id="@+id/grantpermText"
+        android:text="@string/begin.grant"
+        android:textColor="@android:color/white"
+
+ />
+    <TextView
+        android:text="@string/begin.desc"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/textView3"
+        android:textColor="@android:color/white"
+
+        />
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_weight="1"
+    android:layout_height="0dp"
+    android:layout_gravity="center_horizontal">
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/perm"
+    android:tint="@android:color/white"
+    android:id="@+id/imageView3"
+     />
+    <ImageView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:src="@drawable/done"
+        android:visibility="invisible"
+
+
+        android:id="@+id/imageViewOk"
+/></FrameLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"
+
+/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/linear"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+>
+        <Button
+            android:layout_width="0dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            android:onClick="clickedExit"
+            android:layout_weight="1"
+            android:text="@string/begin.exit"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <Button
+
+            android:layout_width="0dp"
+            android:id="@+id/button_next"
+            android:textColor="@android:color/white"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="clickedSettings"
+            android:text="@string/begin.settings"
+            />
+    </LinearLayout>
+</LinearLayout>
